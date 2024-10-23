@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>SortXperience</title>
+
+</head>
+<body>
+
+    <div class="logo">
+        <img src="./img/Frame 48095955.svg" width="38px" height="38px">
+        <p>SortXperience</p>
+    </div>
+
+    <div class="container">
+
+        <section class="content">
+          <header class="home">
+            <span>ONLINE – GRATUITO</span>
+            <p>SORTEADOR DE NÚMEROS</p>
+          </header>
+      
+          <div class="question">
+            <img src="./img/Frame (3).svg">
+            <div>
+              <h4>Como funciona o sorteador de números?</h4>
+              <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo especificado pelo usuário.</p>
+            </div>
+          </div>
+      
+          <div class="question">
+            <img src="./img/Frame (3).svg">
+            <div>
+              <h4>Posso escolher o intervalo dos números?</h4>
+              <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+            </div>
+          </div>
+        </section>
+      
+        <section class="content-01">
+         
+          <form class="form">
+            
+            <div>
+              <h4>QUERO SORTEAR:</h4>
+              <p>Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
+            </div>
+
+            <div class="fild">
+              <fieldset id="ipt-1">
+                <legend>NÚMEROS</legend>
+                <input type="text" id="number" name="number" required>
+              </fieldset>
+      
+              <fieldset id="ipt-2">
+                <legend>DE</legend>
+                <input type="text" id="min" name="min" required>
+              </fieldset>
+      
+              <fieldset id="ipt-3">
+                <legend>DE</legend>
+                <input type="text" id="max" name="max" required>
+              </fieldset>
+            </div>
+      
+
+            <button class="btn-srt">Sortear <img src="./img/Frame (4).svg"></button>
+          </form>
+          
+          <section class="results disable">
+            <p>Resultado do sorteio</p>
+
+  
+           <div class="number">
+            </div>
+  
+            <button class="btn_nv">Sortear novamente <img src="./img/Frame.svg"></button>
+            
+          </section>
+
+        </section>
+
+
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
